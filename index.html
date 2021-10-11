@@ -4,10 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Amazing Website</title>
+    <link rel="stylesheet" href="/css.css">
+    <title>Britney Woolford Developer Portfolio</title>
 </head>
+
 <body>
-    <h1>My Dope Page</h1>
-    
+    <header>        
+        <nav>
+            <div class="logo">
+                <h1>Britney Woolford</h1>
+            </div>
+            <ul>                
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#connect">Connect</a></li>
+               
+            </ul>
+            
+            <div class="social-media">                
+                <a class="btn" href="https://github.com/OctGiovanni"> <box-icon name='gitlab' type='logo' color="rgb(55, 65, 64)" size="lg"></box-icon></a>               
+                <a class="btn" href="https://www.linkedin.com/in/britneywool/"><box-icon name='linkedin-square' type='logo' color="rgb(55, 65, 64)" size="lg" ></box-icon></a>
+            </div>
+            <div class="hamberger">
+                <box-icon name='menu' color="rgb(55, 65, 64)" size="lg" id="menu"></box-icon>
+            </div>
+        </nav>
+        <div class="home-content">
+            <div class="welcome-text">
+                <div class="name">
+                    <!-- <h1 id="hello">Hi</h1> -->
+                    <h1 id="me">Hi I'm Britney</h1>
+                </div>
+                <h2>A budding developer with design sensibilities</h2>
+                <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempori?</p>              -->
+            </div> 
+               
+            <div class="freedom-beach">
+                <img src="/Images/me_in-spain.JPG" alt="Black woman experiencing freedom on the beach of Barcelona, Spain">
+                  
+            </div>
+        </div>    
+    </header>
+    <!-----ABOUT-------->
+    <section class="about" id="about">
+        <div class="base">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h2>Let Me Tell You A Story</h2>
+                <p>I'm a native of Columbus Ohio but grew up splitting time between a parents on the East Coast. Roaming about the country from the age of five. It seemed natural I experience another culture. I lived in Shanghai and travelled through South East Asia in 2014-2016. I consider myself  a global citizen and an artist first. I enjoy the design of software architecture, databases and user interfaces. When I'm not learning. I'm out cycling the Metroparks.</p>
+            </div>
+            <div class="about-img"> 
+                <div class="image">                
+                    <img src="/Images/group-work-marvin-meyer.jpg" alt="team-work">   
+                </div>
+            </div>  
+        </div>          
+    </section>
+    <!-------PROJECTS------>
+    <section class="projects" id="projects"> 
+        <h1>Projects</h1>        
+        <div class="base">            
+            <div class="port">
+                <div class="image">
+                    <img src="/Images/code_screen.webp" alt="A computer screen with lines of programming.">
+                </div>
+                <article class="pj1">                                  
+                    <h2><a href="https://github.com/2021-Fall-Cohort/virtual-pet-petting-zoo" target="_blank" rel="noopener noreferrer">Virtual Pet</a></h2>        
+                    <p id="objective">Objective: A throwback project to tamigatchi pets</p>
+                    <p id="lessons">Focus: Classes, TDD, Control Flow, APIE</p>
+                    <p id="challenges">Greatest Challenge: Paired programming and handling version control</p>
+                </article>    
+            </div>
+            <div class="port">
+                <div class="image">
+                    <img src="/Images/Collab-Abt.jpg" alt="People working together">
+                </div>
+                <article class="pj2">                                   
+                    <h2><a href="https://github.com/2021-Fall-Cohort/review-site-groups-cityhoppers" target="_blank" rel="noopener noreferrer">City Hoppers</a></h2>        
+                    <p id="objective">Objective: Build a site that reviews US cities</p>
+                    <p id="lessons">Focus: Spring Boot, MVC, Thymeleafe</p>
+                    <p id="challenges">Greatest Challenge: Thymeleaf syntax</p>
+                </article>    
+            </div>   
+            <div class="port">
+                <div class="image">
+                    <img src="/Images/full-code-markus-spiske.jpg" alt="screen with code">
+                </div>
+                <article class="pj3">                                    
+                    <h2><a href="https://github.com/OctGiovanni/OctGiovanni.github.io" target="_blank" rel="noopener noreferrer">This Website</a></h2>        
+                    <p id="objective">Objective: Build a portfolio Site</p>
+                    <p id="lessons">Focus: HTML, CSS, FLexbox</p>
+                    <p id="challenges">Greatest Challenge: The containers!</p>
+                </article>    
+            </div>                   
+        </div>
+    </section>
+    <!---------SKILLS-------->
+    <section class="skills">
+        <div class="skills-heading" id="skills">
+            <h1>How I Can Help You?</h1>
+            <h2>Ya Girl's Got SKILLS</h2>
+        </div>
+        <div class="base">                
+                <div class="front">
+                    <h2>Front End</h2>
+                    <p>Lorem impsum dimsum. Come get sum.</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS/Flexbox</li>
+                            <li>Adobe XD</li>        
+                        </ul>
+                </div>
+                <div class="back">
+                    <h2>Back End</h2>
+                    <p>Lorem impsum dimsum. Come get sum.</p>
+                        <ul>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                            <li>SQL</li>        
+                        </ul>                    
+                </div>
+                <div class="pjm">
+                    <h2>Leadership & Operations</h2>
+                    <p>Lorem impsum dimsum. Come get sum.</p>
+                        <ul>
+                            <li>CRM Analyst</li>
+                            <li>Building Launch</li>
+                            <li>Systems Implementation</li>        
+                        </ul>
+                </div>              
+        </div>
+    </section>
+    <!------CONNECT------>
+    <section class="connect" >
+        <div class="base">
+            <div class="msg"id="connect">
+                <h1>Let's Connect</h1>
+                <h3>I'm best reached by email</h3>
+                <p><a href="mailto:britney@britneywoolford.com">Britney@britneywoolford.com</a></p>
+
+            </div>
+            <div class="accounts">
+                <h2>You Can Also Find Me Here</h2>                                
+                    <a class="btn" href="https://github.com/OctGiovanni"> <box-icon name='gitlab' type='logo' color="rgb(55, 65, 64)" size="lg"></box-icon></a>               
+                    <a class="btn" href="https://www.linkedin.com/in/britneywool/"><box-icon name='linkedin-square' type='logo' color="rgb(55, 65, 64)" size="lg" ></box-icon></a>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <h2>Made by OctGiovanni</h2>
+    </footer>
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
