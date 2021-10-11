@@ -221,6 +221,9 @@ footer{
     nav ul li a{
         color:rgb(55, 65, 64);
     }
+    .social-media{
+        display: none;
+    }
     /* ---------REMAINING------------------------------- */
     .about{
         text-align: justify;
