@@ -139,7 +139,7 @@ footer{
 }
 
 /* ------------------------PROJECT STYLING----------------------------- */
-.projects .port{
+.port{
     
     flex-basis: 30%;
     /* background-color: #505050; */
@@ -232,12 +232,12 @@ footer{
         text-align: justify;
         padding-left: 5%;
     }
-    /* .front,
+    .front,
     .back,
     .pjm{
         text-align: justify;
         padding: none;
-    } */
+    }
     .msg{
         padding-bottom: 5%;
     }
